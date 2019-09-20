@@ -5,7 +5,9 @@
 public class Main {
     public static void main(String[] args) {
         Dot dot1 = new Dot(-100, 328);
-        Dot dot2 = new Dot(65, 270);
         ILine lineAdapter = new LineToDot(dot1, dot2);
+        System.out.println(lineAdapter.drawLine());
+        System.out.println();
+		System.out.println("Hi");
     }
 }
