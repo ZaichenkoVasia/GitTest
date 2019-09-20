@@ -73,5 +73,6 @@ public class Line implements ILine {
     public double drawLine() {
         System.out.println("Method draw in Line class");
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+		System.out.println();
     }
 }
